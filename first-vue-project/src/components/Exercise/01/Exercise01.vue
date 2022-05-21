@@ -4,6 +4,7 @@ import RawHTML from './RawHTML.vue'
 import AttributeBindings from './AttributeBindings.vue'
 import BooleanAttributes from './BooleanAttributes.vue'
 import DynamicallyBindingMultipleAttributes from './DynamicallyBindingMultipleAttributes.vue'
+import CallingFunctions from './CallingFunctions.vue'
 </script>
 
 <template>
@@ -19,5 +20,7 @@ import DynamicallyBindingMultipleAttributes from './DynamicallyBindingMultipleAt
         <BooleanAttributes />
         <h4>Dynamically Binding Multiple Attributes</h4>
         <DynamicallyBindingMultipleAttributes />
+        <h4>Calling Functions</h4>
+        <CallingFunctions />
     </div>
 </template>
