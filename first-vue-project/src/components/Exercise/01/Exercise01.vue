@@ -1,6 +1,7 @@
 <script setup>
 import TextInterpolation from './TextInterpolation.vue'
 import RawHTML from './RawHTML.vue'
+import AttributeBindings from './AttributeBindings.vue'
 </script>
 
 <template>
@@ -10,5 +11,7 @@ import RawHTML from './RawHTML.vue'
         <TextInterpolation msg="This is for test"/>
         <h4>Raw HTML</h4>
         <RawHTML />
+        <h4>Attribute Bindings</h4>
+        <AttributeBindings />
     </div>
 </template>
