@@ -2,6 +2,7 @@
 import TextInterpolation from './TextInterpolation.vue'
 import RawHTML from './RawHTML.vue'
 import AttributeBindings from './AttributeBindings.vue'
+import BooleanAttributes from './BooleanAttributes.vue'
 </script>
 
 <template>
@@ -13,5 +14,7 @@ import AttributeBindings from './AttributeBindings.vue'
         <RawHTML />
         <h4>Attribute Bindings</h4>
         <AttributeBindings />
+        <h4>Boolean Attributes</h4>
+        <BooleanAttributes />
     </div>
 </template>
