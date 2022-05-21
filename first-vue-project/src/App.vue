@@ -1,29 +1,25 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
 </script>
 
 <template>
   <header>
     <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
-
+    <h3>Vue Exercises from galaxyuliana</h3>
     <div class="wrapper">
-      <HelloWorld msg="You did it!" />
+      <router-link to="/">Go back to Exercise List</router-link>
     </div>
   </header>
 
   <main>
-    <TheWelcome />
+   <router-view />
   </main>
 </template>
 
 <style>
-@import './assets/base.css';
-
 #app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  width: 100%;
+  /* margin: 0 auto;
+  padding: 2rem; */
 
   font-weight: normal;
 }
@@ -54,28 +50,36 @@ a,
   body {
     display: flex;
     place-items: center;
-  }
-
-  #app {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0 2rem;
+    margin: 0px;
   }
 
   header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
+    width: 100%;
+    background-color: #000000ed;
+    display: inline-flex;
+  }
+
+  header h3 {
+    color: white;
+    flex-grow: 2;
+    text-align: center;
+    font-size: 43px;
   }
 
   header .wrapper {
     display: flex;
     place-items: flex-start;
     flex-wrap: wrap;
+    padding: 20px;
   }
 
   .logo {
     margin: 0 2rem 0 0;
+    padding: 20px;
+  }
+
+  main {
+    padding: 15px;
   }
 }
 </style>
