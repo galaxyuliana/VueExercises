@@ -3,6 +3,7 @@ import TextInterpolation from './TextInterpolation.vue'
 import RawHTML from './RawHTML.vue'
 import AttributeBindings from './AttributeBindings.vue'
 import BooleanAttributes from './BooleanAttributes.vue'
+import DynamicallyBindingMultipleAttributes from './DynamicallyBindingMultipleAttributes.vue'
 </script>
 
 <template>
@@ -16,5 +17,7 @@ import BooleanAttributes from './BooleanAttributes.vue'
         <AttributeBindings />
         <h4>Boolean Attributes</h4>
         <BooleanAttributes />
+        <h4>Dynamically Binding Multiple Attributes</h4>
+        <DynamicallyBindingMultipleAttributes />
     </div>
 </template>
