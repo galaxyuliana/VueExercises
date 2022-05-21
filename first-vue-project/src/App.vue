@@ -4,7 +4,7 @@
 <template>
   <header>
     <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
-    <h3>Vue Exercises from galaxyuliana</h3>
+    <h3>Vue Exercises</h3>
     <div class="wrapper">
       <router-link to="/">Go back to Exercise List</router-link>
     </div>
