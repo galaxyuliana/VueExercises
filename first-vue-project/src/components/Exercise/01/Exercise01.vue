@@ -8,6 +8,7 @@ import CallingFunctions from './CallingFunctions.vue'
 import Directives from './Directives.vue'
 import ArgumentsBind from './ArgumentsBind.vue'
 import ArgumentsOn from './ArgumentsOn.vue'
+import DynamicArgumentsBind from './DynamicArgumentsBind.vue'
 </script>
 
 <template>
@@ -31,5 +32,7 @@ import ArgumentsOn from './ArgumentsOn.vue'
         <ArgumentsBind />
         <h4>Arguments v-on</h4>
         <ArgumentsOn />
+        <h4>Dynamic Arguments v-bind</h4>
+        <DynamicArgumentsBind />
     </div>
 </template>
