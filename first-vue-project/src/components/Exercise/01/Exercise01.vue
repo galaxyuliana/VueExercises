@@ -9,6 +9,7 @@ import Directives from './Directives.vue'
 import ArgumentsBind from './ArgumentsBind.vue'
 import ArgumentsOn from './ArgumentsOn.vue'
 import DynamicArgumentsBind from './DynamicArgumentsBind.vue'
+import DynamicArgumentsOn from './DynamicArgumentsOn.vue'
 </script>
 
 <template>
@@ -34,5 +35,7 @@ import DynamicArgumentsBind from './DynamicArgumentsBind.vue'
         <ArgumentsOn />
         <h4>Dynamic Arguments v-bind</h4>
         <DynamicArgumentsBind />
+        <h4>Dynamic Arguments v-on</h4>
+        <DynamicArgumentsOn />
     </div>
 </template>
