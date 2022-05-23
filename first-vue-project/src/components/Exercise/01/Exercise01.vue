@@ -6,6 +6,7 @@ import BooleanAttributes from './BooleanAttributes.vue'
 import DynamicallyBindingMultipleAttributes from './DynamicallyBindingMultipleAttributes.vue'
 import CallingFunctions from './CallingFunctions.vue'
 import Directives from './Directives.vue'
+import ArgumentsBind from './ArgumentsBind.vue'
 </script>
 
 <template>
@@ -25,5 +26,7 @@ import Directives from './Directives.vue'
         <CallingFunctions />
         <h4>Directives</h4>
         <Directives />
+        <h4>Arguments v-bind</h4>
+        <ArgumentsBind />
     </div>
 </template>
