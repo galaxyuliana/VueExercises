@@ -5,6 +5,7 @@ import AttributeBindings from './AttributeBindings.vue'
 import BooleanAttributes from './BooleanAttributes.vue'
 import DynamicallyBindingMultipleAttributes from './DynamicallyBindingMultipleAttributes.vue'
 import CallingFunctions from './CallingFunctions.vue'
+import Directives from './Directives.vue'
 </script>
 
 <template>
@@ -22,5 +23,7 @@ import CallingFunctions from './CallingFunctions.vue'
         <DynamicallyBindingMultipleAttributes />
         <h4>Calling Functions</h4>
         <CallingFunctions />
+        <h4>Directives</h4>
+        <Directives />
     </div>
 </template>
