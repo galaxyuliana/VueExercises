@@ -15,5 +15,7 @@ export default {
 </script>
 
 <template>
-  Count is: {{ count }}
+    <div class="exercise">
+        Count is: {{ count }}
+    </div>
 </template>
