@@ -1,6 +1,7 @@
 <script setup>
 import ReactivityFundamentals from './ReactivityFundamentals.vue'
 import ReactiveProxyVsOriginal from './ReactiveProxyVsOriginal.vue'
+import DeclaringMethods from './DeclaringMethods.vue'
 </script>
 
 <template>
@@ -10,5 +11,7 @@ import ReactiveProxyVsOriginal from './ReactiveProxyVsOriginal.vue'
         <ReactivityFundamentals />
         <h4>Reactive Proxy Vs. Original</h4>
         <ReactiveProxyVsOriginal />
+        <h4>Declaring Methods</h4>
+        <DeclaringMethods />
     </div>
 </template>
