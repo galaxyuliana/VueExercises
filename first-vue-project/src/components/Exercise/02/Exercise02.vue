@@ -2,6 +2,7 @@
 import ReactivityFundamentals from './ReactivityFundamentals.vue'
 import ReactiveProxyVsOriginal from './ReactiveProxyVsOriginal.vue'
 import DeclaringMethods from './DeclaringMethods.vue'
+import DOMUpdateTiming from './DOMUpdateTiming.vue'
 </script>
 
 <template>
@@ -13,5 +14,7 @@ import DeclaringMethods from './DeclaringMethods.vue'
         <ReactiveProxyVsOriginal />
         <h4>Declaring Methods</h4>
         <DeclaringMethods />
+        <h4>DOM Update Timing</h4>
+        <DOMUpdateTiming />
     </div>
 </template>
