@@ -2,24 +2,24 @@
 </script>
 
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
-    <h3>Vue Exercises</h3>
-    <div class="wrapper">
-      <router-link to="/">Go back to Exercise List</router-link>
-    </div>
-  </header>
+  <div class="main-container">
+    <header>
+      <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
+      <h3>Vue Exercises</h3>
+      <div class="wrapper">
+        <router-link to="/">Go back to Exercise List</router-link>
+      </div>
+    </header>
 
-  <main>
-   <router-view />
-  </main>
+    <main>
+    <router-view />
+    </main>
+  </div>
 </template>
 
 <style>
 #app {
   width: 100%;
-  /* margin: 0 auto;
-  padding: 2rem; */
 
   font-weight: normal;
 }
