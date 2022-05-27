@@ -2,6 +2,7 @@ import {createRouter, createWebHistory} from 'vue-router'
 import ExerciseList from './components/ExerciseList.vue'
 import Exercise01 from './components/Exercise/01/Exercise01.vue'
 import Exercise02 from './components/Exercise/02/Exercise02.vue'
+import Exercise03 from './components/Exercise/03/Exercise03.vue'
 
 const routes = [{
     path: '/',
@@ -17,6 +18,11 @@ const routes = [{
     path: '/02',
     name: 'Exercise02',
     component: Exercise02
+  },
+  {
+    path: '/03',
+    name: 'Exercise03',
+    component: Exercise03
   }
 ]
 
