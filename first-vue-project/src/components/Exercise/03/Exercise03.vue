@@ -1,6 +1,7 @@
 <script setup>
 import BasicExample from './BasicExample.vue'
 import BasicExampleMethods from './BasicExampleMethods.vue'
+import WritableComputed from './WritableComputed.vue'
 </script>
 
 <template>
@@ -10,5 +11,7 @@ import BasicExampleMethods from './BasicExampleMethods.vue'
         <BasicExample />
         <h4>Basic Example Methods</h4>
         <BasicExampleMethods />
+        <h4>Writable Computed</h4>
+        <WritableComputed />
     </div>
 </template>
