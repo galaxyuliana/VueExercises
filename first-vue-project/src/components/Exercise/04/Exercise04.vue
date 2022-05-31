@@ -2,6 +2,7 @@
 import BindingToObjects from './BindingToObjects.vue'
 import BindingToObjectNotInline from './BindingToObjectNotInline.vue'
 import BindingToObjectComputed from './BindingToObjectComputed.vue'
+import BindingToArrays from './BindingToArrays.vue'
 </script>
 
 <template>
@@ -13,5 +14,7 @@ import BindingToObjectComputed from './BindingToObjectComputed.vue'
         <BindingToObjectNotInline />
         <h4>Binding to Objects using computed</h4>
         <BindingToObjectComputed />
+        <h4>Binding to Arrays</h4>
+        <BindingToArrays />
     </div>
 </template>
