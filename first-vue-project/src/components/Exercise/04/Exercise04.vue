@@ -3,7 +3,7 @@ import BindingToObjects from './BindingToObjects.vue'
 import BindingToObjectNotInline from './BindingToObjectNotInline.vue'
 import BindingToObjectComputed from './BindingToObjectComputed.vue'
 import BindingToArrays from './BindingToArrays.vue'
-import BidingToArraysWithTernaryExpressions from './BidingToArraysWithTernaryExpressions.vue'
+import BindingToArraysWithTernaryExpressions from './BindingToArraysWithTernaryExpressions.vue'
 </script>
 
 <template>
@@ -18,6 +18,6 @@ import BidingToArraysWithTernaryExpressions from './BidingToArraysWithTernaryExp
         <h4>Binding to Arrays</h4>
         <BindingToArrays />
         <h4>Binding to Arrays With Ternary Expressions</h4>
-        <BidingToArraysWithTernaryExpressions />
+        <BindingToArraysWithTernaryExpressions />
     </div>
 </template>
