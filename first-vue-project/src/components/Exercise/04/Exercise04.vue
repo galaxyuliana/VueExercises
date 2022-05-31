@@ -4,6 +4,7 @@ import BindingToObjectNotInline from './BindingToObjectNotInline.vue'
 import BindingToObjectComputed from './BindingToObjectComputed.vue'
 import BindingToArrays from './BindingToArrays.vue'
 import BindingToArraysWithTernaryExpressions from './BindingToArraysWithTernaryExpressions.vue'
+import BindingToArraysObjectSyntax from './BindingToArraysObjectSyntax.vue'
 </script>
 
 <template>
@@ -19,5 +20,7 @@ import BindingToArraysWithTernaryExpressions from './BindingToArraysWithTernaryE
         <BindingToArrays />
         <h4>Binding to Arrays With Ternary Expressions</h4>
         <BindingToArraysWithTernaryExpressions />
+        <h4>Binding to Arrays using Object Syntax</h4>
+        <BindingToArraysObjectSyntax />
     </div>
 </template>
