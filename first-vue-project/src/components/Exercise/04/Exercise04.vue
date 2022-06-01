@@ -5,6 +5,7 @@ import BindingToObjectComputed from './BindingToObjectComputed.vue'
 import BindingToArrays from './BindingToArrays.vue'
 import BindingToArraysWithTernaryExpressions from './BindingToArraysWithTernaryExpressions.vue'
 import BindingToArraysObjectSyntax from './BindingToArraysObjectSyntax.vue'
+import WithComponentsBasic from './WithComponentsBasic.vue'
 </script>
 
 <template>
@@ -22,5 +23,7 @@ import BindingToArraysObjectSyntax from './BindingToArraysObjectSyntax.vue'
         <BindingToArraysWithTernaryExpressions />
         <h4>Binding to Arrays using Object Syntax</h4>
         <BindingToArraysObjectSyntax />
+        <h4>With Components</h4>
+        <WithComponentsBasic />
     </div>
 </template>
