@@ -7,6 +7,7 @@ import BindingToArraysWithTernaryExpressions from './BindingToArraysWithTernaryE
 import BindingToArraysObjectSyntax from './BindingToArraysObjectSyntax.vue'
 import WithComponentsBasic from './WithComponentsBasic.vue'
 import WithComponentsClassBindings from './WithComponentsClassBindings.vue'
+import WithComponentsMultipleRoots from './WithComponentsMultipleRoots.vue'
 </script>
 
 <template>
@@ -28,5 +29,7 @@ import WithComponentsClassBindings from './WithComponentsClassBindings.vue'
         <WithComponentsBasic />
         <h4>With Components using Class bindings</h4>
         <WithComponentsClassBindings />
+        <h4>With Components with mutiple roots</h4>
+        <WithComponentsMultipleRoots />
     </div>
 </template>
