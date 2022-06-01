@@ -6,6 +6,7 @@ import BindingToArrays from './BindingToArrays.vue'
 import BindingToArraysWithTernaryExpressions from './BindingToArraysWithTernaryExpressions.vue'
 import BindingToArraysObjectSyntax from './BindingToArraysObjectSyntax.vue'
 import WithComponentsBasic from './WithComponentsBasic.vue'
+import WithComponentsClassBindings from './WithComponentsClassBindings.vue'
 </script>
 
 <template>
@@ -25,5 +26,7 @@ import WithComponentsBasic from './WithComponentsBasic.vue'
         <BindingToArraysObjectSyntax />
         <h4>With Components</h4>
         <WithComponentsBasic />
+        <h4>With Components using Class bindings</h4>
+        <WithComponentsClassBindings />
     </div>
 </template>
