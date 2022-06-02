@@ -9,6 +9,7 @@ import WithComponentsBasic from './WithComponentsBasic.vue'
 import WithComponentsClassBindings from './WithComponentsClassBindings.vue'
 import WithComponentsMultipleRoots from './WithComponentsMultipleRoots.vue'
 import InlineStylesBindingToObj from './InlineStylesBindingToObj.vue'
+import InlineStylesBindingToObjAdvanced from './InlineStylesBindingToObjAdvanced.vue'
 </script>
 
 <template>
@@ -34,5 +35,7 @@ import InlineStylesBindingToObj from './InlineStylesBindingToObj.vue'
         <WithComponentsMultipleRoots />
         <h4>Binding Inline Styles - Binding to Objects</h4>
         <InlineStylesBindingToObj />
+        <h4>Binding Inline Styles - Binding to Objects advanced</h4>
+        <InlineStylesBindingToObjAdvanced />
     </div>
 </template>
