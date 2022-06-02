@@ -8,6 +8,7 @@ import BindingToArraysObjectSyntax from './BindingToArraysObjectSyntax.vue'
 import WithComponentsBasic from './WithComponentsBasic.vue'
 import WithComponentsClassBindings from './WithComponentsClassBindings.vue'
 import WithComponentsMultipleRoots from './WithComponentsMultipleRoots.vue'
+import InlineStylesBindingToObj from './InlineStylesBindingToObj.vue'
 </script>
 
 <template>
@@ -31,5 +32,7 @@ import WithComponentsMultipleRoots from './WithComponentsMultipleRoots.vue'
         <WithComponentsClassBindings />
         <h4>With Components with mutiple roots</h4>
         <WithComponentsMultipleRoots />
+        <h4>Binding Inline Styles - Binding to Objects</h4>
+        <InlineStylesBindingToObj />
     </div>
 </template>
