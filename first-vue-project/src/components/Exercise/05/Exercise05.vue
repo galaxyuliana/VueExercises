@@ -3,6 +3,7 @@ import DirectiveVIf from './DirectiveVIf.vue'
 import DirectiveVElse from './DirectiveVElse.vue'
 import DirectiveVElseIf from './DirectiveVElseIf.vue'
 import DirectiveVIfOnTemplate from './DirectiveVIfOnTemplate.vue'
+import DirectiveVShow from './DirectiveVShow.vue'
 </script>
 
 <template>
@@ -16,5 +17,7 @@ import DirectiveVIfOnTemplate from './DirectiveVIfOnTemplate.vue'
         <DirectiveVElseIf />
         <h4>Directive v-if on template</h4>
         <DirectiveVIfOnTemplate />
+        <h4>Directive v-show</h4>
+        <DirectiveVShow />
     </div>
 </template>
