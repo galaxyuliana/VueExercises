@@ -2,6 +2,7 @@
 import DirectiveVIf from './DirectiveVIf.vue'
 import DirectiveVElse from './DirectiveVElse.vue'
 import DirectiveVElseIf from './DirectiveVElseIf.vue'
+import DirectiveVIfOnTemplate from './DirectiveVIfOnTemplate.vue'
 </script>
 
 <template>
@@ -13,5 +14,7 @@ import DirectiveVElseIf from './DirectiveVElseIf.vue'
         <DirectiveVElse />
         <h4>Directive v-else-if</h4>
         <DirectiveVElseIf />
+        <h4>Directive v-if on template</h4>
+        <DirectiveVIfOnTemplate />
     </div>
 </template>
