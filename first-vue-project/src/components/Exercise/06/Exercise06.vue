@@ -4,6 +4,7 @@ import DirectiveVForParentScope from './DirectiveVForParentScope.vue'
 import DirectiveVForIndex from './DirectiveVForIndex.vue'
 import DirectiveVForNested from './DirectiveVForNested.vue'
 import DirectiveVForOf from './DirectiveVForOf.vue'
+import DirectiveVForWithObject from './DirectiveVForWithObject.vue'
 </script>
 
 <template>
@@ -19,5 +20,7 @@ import DirectiveVForOf from './DirectiveVForOf.vue'
         <DirectiveVForNested />
         <h4>Directive v-for using of</h4>
         <DirectiveVForOf />
+        <h4>Directive v-for with an Object</h4>
+        <DirectiveVForWithObject />
     </div>
 </template>
