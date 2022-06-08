@@ -5,6 +5,7 @@ import DirectiveVForIndex from './DirectiveVForIndex.vue'
 import DirectiveVForNested from './DirectiveVForNested.vue'
 import DirectiveVForOf from './DirectiveVForOf.vue'
 import DirectiveVForWithObject from './DirectiveVForWithObject.vue'
+import DirectiveVForWithObjectKey from './DirectiveVForWithObjectKey.vue'
 </script>
 
 <template>
@@ -22,5 +23,7 @@ import DirectiveVForWithObject from './DirectiveVForWithObject.vue'
         <DirectiveVForOf />
         <h4>Directive v-for with an Object</h4>
         <DirectiveVForWithObject />
+        <h4>Directive v-for with an Object using key</h4>
+        <DirectiveVForWithObjectKey />
     </div>
 </template>
