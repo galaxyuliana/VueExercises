@@ -2,6 +2,7 @@
 import DirectiveVFor from './DirectiveVFor.vue'
 import DirectiveVForParentScope from './DirectiveVForParentScope.vue'
 import DirectiveVForIndex from './DirectiveVForIndex.vue'
+import DirectiveVForNested from './DirectiveVForNested.vue'
 </script>
 
 <template>
@@ -13,5 +14,7 @@ import DirectiveVForIndex from './DirectiveVForIndex.vue'
         <DirectiveVForParentScope />
         <h4>Directive v-for with index</h4>
         <DirectiveVForIndex />
+        <h4>Directive v-for - nested</h4>
+        <DirectiveVForNested />
     </div>
 </template>
