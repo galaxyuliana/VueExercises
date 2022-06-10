@@ -10,6 +10,7 @@ import DirectiveVForWithRange from './DirectiveVForWithRange.vue'
 import DirectiveVForTemplate from './DirectiveVForTemplate.vue'
 import DirectiveVForWithVIf from './DirectiveVForWithVIf.vue'
 import DirectiveVForKey from './DirectiveVForKey.vue'
+import DirectiveVForKeyOnTemplate from './DirectiveVForKeyOnTemplate.vue'
 </script>
 
 <template>
@@ -37,5 +38,7 @@ import DirectiveVForKey from './DirectiveVForKey.vue'
         <DirectiveVForWithVIf />
         <h4>Directive v-for with key</h4>
         <DirectiveVForKey />
+        <h4>Directive v-for with key on template</h4>
+        <DirectiveVForKeyOnTemplate />
     </div>
 </template>
