@@ -11,6 +11,7 @@ import DirectiveVForTemplate from './DirectiveVForTemplate.vue'
 import DirectiveVForWithVIf from './DirectiveVForWithVIf.vue'
 import DirectiveVForKey from './DirectiveVForKey.vue'
 import DirectiveVForKeyOnTemplate from './DirectiveVForKeyOnTemplate.vue'
+import DirectiveVForComponent from './DirectiveVForComponent.vue'
 </script>
 
 <template>
@@ -40,5 +41,7 @@ import DirectiveVForKeyOnTemplate from './DirectiveVForKeyOnTemplate.vue'
         <DirectiveVForKey />
         <h4>Directive v-for with key on template</h4>
         <DirectiveVForKeyOnTemplate />
+        <h4>Directive v-for with a Component</h4>
+        <DirectiveVForComponent />
     </div>
 </template>
