@@ -13,6 +13,7 @@ import DirectiveVForKey from './DirectiveVForKey.vue'
 import DirectiveVForKeyOnTemplate from './DirectiveVForKeyOnTemplate.vue'
 import DirectiveVForComponent from './DirectiveVForComponent.vue'
 import DirectiveVForComputed from './DirectiveVForComputed.vue'
+import DirectiveVForMethod from './DirectiveVForMethod.vue'
 </script>
 
 <template>
@@ -46,5 +47,7 @@ import DirectiveVForComputed from './DirectiveVForComputed.vue'
         <DirectiveVForComponent />
         <h4>Displaying filtered results</h4>
         <DirectiveVForComputed />
+        <h4>Displaying filtered results - method</h4>
+        <DirectiveVForMethod />
     </div>
 </template>
