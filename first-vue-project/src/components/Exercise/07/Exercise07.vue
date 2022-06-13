@@ -2,6 +2,7 @@
 import DirectiveVOn from './DirectiveVOn.vue'
 import DirectiveVOnMethodHandlers from './DirectiveVOnMethodHandlers.vue'
 import DirectiveVOnCallMethodInline from './DirectiveVOnCallMethodInline.vue'
+import DirectiveVOnEventArgument from './DirectiveVOnEventArgument.vue'
 </script>
 
 <template>
@@ -13,5 +14,7 @@ import DirectiveVOnCallMethodInline from './DirectiveVOnCallMethodInline.vue'
         <DirectiveVOnMethodHandlers />
         <h4>Calling Methods in Inline Handlers</h4>
         <DirectiveVOnCallMethodInline />
+        <h4>Accessing Event Argument in Inline Handlers</h4>
+        <DirectiveVOnEventArgument />
     </div>
 </template>
