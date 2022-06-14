@@ -4,6 +4,7 @@ import DirectiveVOnMethodHandlers from './DirectiveVOnMethodHandlers.vue'
 import DirectiveVOnCallMethodInline from './DirectiveVOnCallMethodInline.vue'
 import DirectiveVOnEventArgument from './DirectiveVOnEventArgument.vue'
 import KeyModifier from './KeyModifier.vue'
+import KeyboardEvent from './KeyboardEvent.vue'
 </script>
 
 <template>
@@ -19,5 +20,7 @@ import KeyModifier from './KeyModifier.vue'
         <DirectiveVOnEventArgument />
         <h4>Key Modifier</h4>
         <KeyModifier />
+        <h4>KeyboardEvent.key</h4>
+        <KeyboardEvent />
     </div>
 </template>
