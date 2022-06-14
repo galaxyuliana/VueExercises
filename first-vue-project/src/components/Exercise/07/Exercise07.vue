@@ -3,6 +3,7 @@ import DirectiveVOn from './DirectiveVOn.vue'
 import DirectiveVOnMethodHandlers from './DirectiveVOnMethodHandlers.vue'
 import DirectiveVOnCallMethodInline from './DirectiveVOnCallMethodInline.vue'
 import DirectiveVOnEventArgument from './DirectiveVOnEventArgument.vue'
+import KeyModifier from './KeyModifier.vue'
 </script>
 
 <template>
@@ -16,5 +17,7 @@ import DirectiveVOnEventArgument from './DirectiveVOnEventArgument.vue'
         <DirectiveVOnCallMethodInline />
         <h4>Accessing Event Argument in Inline Handlers</h4>
         <DirectiveVOnEventArgument />
+        <h4>Key Modifier</h4>
+        <KeyModifier />
     </div>
 </template>
