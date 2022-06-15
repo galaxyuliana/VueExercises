@@ -6,6 +6,7 @@ import Exercise04 from './Exercise/04/Exercise04.vue'
 import Exercise05 from './Exercise/05/Exercise05.vue'
 import Exercise06 from './Exercise/06/Exercise06.vue'
 import Exercise07 from './Exercise/07/Exercise07.vue'
+import Exercise08 from './Exercise/08/Exercise08.vue'
 </script>
 
 <template>
@@ -17,6 +18,7 @@ import Exercise07 from './Exercise/07/Exercise07.vue'
         <router-link class="nav-link" to="/05">Exercies 05</router-link>
         <router-link class="nav-link" to="/06">Exercies 06</router-link>
         <router-link class="nav-link" to="/07">Exercies 07</router-link>
+        <router-link class="nav-link" to="/08">Exercies 08</router-link>
     </div>
 </template>
 

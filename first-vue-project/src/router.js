@@ -7,6 +7,7 @@ import Exercise04 from './components/Exercise/04/Exercise04.vue'
 import Exercise05 from './components/Exercise/05/Exercise05.vue'
 import Exercise06 from './components/Exercise/06/Exercise06.vue'
 import Exercise07 from './components/Exercise/07/Exercise07.vue'
+import Exercise08 from './components/Exercise/08/Exercise08.vue'
 
 const routes = [{
     path: '/',
@@ -47,6 +48,11 @@ const routes = [{
     path: '/07',
     name: 'Exercise07',
     component: Exercise07
+  },
+  {
+    path: '/08',
+    name: 'Exercise08',
+    component: Exercise08
   }
 ]
 
