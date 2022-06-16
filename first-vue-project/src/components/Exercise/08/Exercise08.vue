@@ -1,6 +1,7 @@
 <script setup>
 import FormInputBindings from './FormInputBindings.vue'
 import Text from './Text.vue'
+import MultilineText from './MultilineText.vue'
 </script>
 
 <template>
@@ -10,5 +11,7 @@ import Text from './Text.vue'
         <FormInputBindings />
         <h4>Text</h4>
         <Text />
+        <h4>Multiline text</h4>
+        <MultilineText />
     </div>
 </template>
