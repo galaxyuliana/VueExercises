@@ -10,6 +10,7 @@ import MultipleSelect from './MultipleSelect.vue'
 import BindingSelectOptions from './BindingSelectOptions.vue'
 import CheckboxValueBindings from './CheckboxValueBindings.vue'
 import RadioValueBindings from './RadioValueBindings.vue'
+import SelectValueBindings from './SelectValueBindings.vue'
 </script>
 
 <template>
@@ -37,5 +38,7 @@ import RadioValueBindings from './RadioValueBindings.vue'
         <CheckboxValueBindings />
         <h4>Value Bindings - Radio</h4>
         <RadioValueBindings />
+        <h4>Value Bindings - Select</h4>
+        <SelectValueBindings />
     </div>
 </template>
