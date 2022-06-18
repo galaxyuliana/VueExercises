@@ -4,6 +4,7 @@ import Text from './Text.vue'
 import MultilineText from './MultilineText.vue'
 import SingleCheckBox from './SingleCheckBox.vue'
 import MultipleCheckboxes from './MultipleCheckboxes.vue'
+import RadioButton from './RadioButton.vue'
 </script>
 
 <template>
@@ -19,5 +20,7 @@ import MultipleCheckboxes from './MultipleCheckboxes.vue'
         <SingleCheckBox />
         <h4>Multiple Checkbox</h4>
         <MultipleCheckboxes />
+        <h4>Radio button</h4>
+        <RadioButton />
     </div>
 </template>
