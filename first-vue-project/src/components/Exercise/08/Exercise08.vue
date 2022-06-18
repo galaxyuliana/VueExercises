@@ -6,6 +6,7 @@ import SingleCheckBox from './SingleCheckBox.vue'
 import MultipleCheckboxes from './MultipleCheckboxes.vue'
 import RadioButton from './RadioButton.vue'
 import SingleSelect from './SingleSelect.vue'
+import MultipleSelect from './MultipleSelect.vue'
 </script>
 
 <template>
@@ -25,5 +26,7 @@ import SingleSelect from './SingleSelect.vue'
         <RadioButton />
         <h4>Single Select</h4>
         <SingleSelect />
+        <h4>Multiple Select</h4>
+        <MultipleSelect />
     </div>
 </template>
