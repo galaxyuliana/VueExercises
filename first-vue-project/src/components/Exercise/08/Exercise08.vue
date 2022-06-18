@@ -3,6 +3,7 @@ import FormInputBindings from './FormInputBindings.vue'
 import Text from './Text.vue'
 import MultilineText from './MultilineText.vue'
 import SingleCheckBox from './SingleCheckBox.vue'
+import MultipleCheckboxes from './MultipleCheckboxes.vue'
 </script>
 
 <template>
@@ -16,5 +17,7 @@ import SingleCheckBox from './SingleCheckBox.vue'
         <MultilineText />
         <h4>Checkbox</h4>
         <SingleCheckBox />
+        <h4>Multiple Checkbox</h4>
+        <MultipleCheckboxes />
     </div>
 </template>
