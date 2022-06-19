@@ -11,6 +11,7 @@ import BindingSelectOptions from './BindingSelectOptions.vue'
 import CheckboxValueBindings from './CheckboxValueBindings.vue'
 import RadioValueBindings from './RadioValueBindings.vue'
 import SelectValueBindings from './SelectValueBindings.vue'
+import ModifierLazy from './ModifierLazy.vue'
 </script>
 
 <template>
@@ -40,5 +41,7 @@ import SelectValueBindings from './SelectValueBindings.vue'
         <RadioValueBindings />
         <h4>Value Bindings - Select</h4>
         <SelectValueBindings />
+        <h4>Modifier - Lazy</h4>
+        <ModifierLazy />
     </div>
 </template>
