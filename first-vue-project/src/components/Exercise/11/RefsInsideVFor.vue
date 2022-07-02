@@ -14,9 +14,11 @@ export default {
 </script>
 
 <template>
-  <ul>
-    <li v-for="item in list" ref="items">
-      {{ item }}
-    </li>
-  </ul>
+    <div class="exercise">
+      <ul>
+        <li v-for="item in list" ref="items">
+          {{ item }}
+        </li>
+      </ul>
+    </div>
 </template>

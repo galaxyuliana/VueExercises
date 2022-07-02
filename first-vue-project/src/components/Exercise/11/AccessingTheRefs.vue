@@ -7,5 +7,7 @@ export default {
 </script>
 
 <template>
-  <input ref="input" />
+    <div class="exercise">
+      <input ref="input" />
+    </div>
 </template>
