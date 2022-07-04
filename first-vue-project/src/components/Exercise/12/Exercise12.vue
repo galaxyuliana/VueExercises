@@ -1,6 +1,7 @@
 <script setup>
 import DefiningComponent from './DefiningComponent.vue'
 import UsingComponent from './UsingComponent.vue'
+import UsingComponentNTimes from './UsingComponentNTimes.vue'
 </script>
 
 <template>
@@ -10,5 +11,7 @@ import UsingComponent from './UsingComponent.vue'
         <DefiningComponent />
         <h4>Using a Component</h4>
         <UsingComponent />
+        <h4>Using Components</h4>
+        <UsingComponentNTimes />
     </div>
 </template>

@@ -10,7 +10,9 @@ export default {
 
 <template>
     <div class="exercise">
-        <h1>Here is a child component!</h1>
+        <h1>Here are many child components!</h1>
+        <ButtonCounter />
+        <ButtonCounter />
         <ButtonCounter />
     </div>
 </template>
