@@ -3,6 +3,7 @@ import PropsDeclaration from './PropsDeclaration.vue'
 import PropsDeclarationObject from './PropsDeclarationObject.vue'
 import PropNameCasing from './PropNameCasing.vue'
 import StaticAndDynamicProps from './StaticAndDynamicProps.vue'
+import BindingPropertiesObject from './BindingPropertiesObject.vue'
 </script>
 
 <template>
@@ -16,5 +17,7 @@ import StaticAndDynamicProps from './StaticAndDynamicProps.vue'
         <PropNameCasing greeting-message="hello"/>
         <h4>Static vs. Dynamic Props</h4>
         <StaticAndDynamicProps />
+        <h4>Binding Multiple Properties Using an Object</h4>
+        <BindingPropertiesObject />
     </div>
 </template>
