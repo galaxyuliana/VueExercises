@@ -20,6 +20,7 @@
 <template>
     <div class="exercise">
         initial value of Counter: {{ counter }}
+        <br/>
         Size: {{ normalizedSize }}
     </div>
 </template>
