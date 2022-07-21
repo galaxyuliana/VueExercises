@@ -13,6 +13,7 @@ import Exercise11 from './Exercise/11/Exercise11.vue'
 import Exercise12 from './Exercise/12/Exercise12.vue'
 import Exercise13 from './Exercise/13/Exercise13.vue'
 import Exercise14 from './Exercise/14/Exercise14.vue'
+import Exercise15 from './Exercise/15/Exercise15.vue'
 </script>
 
 <template>
@@ -31,6 +32,7 @@ import Exercise14 from './Exercise/14/Exercise14.vue'
         <router-link class="nav-link" to="/12">Exercies 12</router-link>
         <router-link class="nav-link" to="/13">Exercies 13</router-link>
         <router-link class="nav-link" to="/14">Exercies 14</router-link>
+        <router-link class="nav-link" to="/15">Exercies 15</router-link>
     </div>
 </template>
 
