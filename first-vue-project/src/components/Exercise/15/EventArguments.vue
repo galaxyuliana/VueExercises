@@ -7,7 +7,7 @@ export default {
   },
   data() {
     return {
-      count: 0
+      count: 3
     }
   },
   methods: {
@@ -20,7 +20,9 @@ export default {
 
 <template>
     <div class="exercise">
-        {{ count }}
+        <div :style="{ fontSize: count + 'em' }">
+          Test
+        </div>
         <MyButton @increase-by="(n) => count += n" />
         <MyButton @increase-by="increaseCount" />
     </div>
