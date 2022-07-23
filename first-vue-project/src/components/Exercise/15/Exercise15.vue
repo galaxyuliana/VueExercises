@@ -1,6 +1,7 @@
 <script setup>
 import EmitListenEvents from './EmitListenEvents.vue'
 import EventArguments from './EventArguments.vue'
+import DeclaringEmittedEvents from './DeclaringEmittedEvents.vue'
 </script>
 
 <template>
@@ -10,5 +11,7 @@ import EventArguments from './EventArguments.vue'
         <EmitListenEvents />
         <h4>Event Arguments</h4>
         <EventArguments />
+        <h4>Declaring Emitted Events</h4>
+        <DeclaringEmittedEvents />
     </div>
 </template>
