@@ -2,6 +2,7 @@
 import EmitListenEvents from './EmitListenEvents.vue'
 import EventArguments from './EventArguments.vue'
 import DeclaringEmittedEvents from './DeclaringEmittedEvents.vue'
+import EventsValidation from './EventsValidation.vue'
 </script>
 
 <template>
@@ -13,5 +14,7 @@ import DeclaringEmittedEvents from './DeclaringEmittedEvents.vue'
         <EventArguments />
         <h4>Declaring Emitted Events</h4>
         <DeclaringEmittedEvents />
+        <h4>Events Validation</h4>
+        <EventsValidation />
     </div>
 </template>
