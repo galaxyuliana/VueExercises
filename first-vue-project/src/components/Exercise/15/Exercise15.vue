@@ -3,6 +3,7 @@ import EmitListenEvents from './EmitListenEvents.vue'
 import EventArguments from './EventArguments.vue'
 import DeclaringEmittedEvents from './DeclaringEmittedEvents.vue'
 import EventsValidation from './EventsValidation.vue'
+import UsingWithVModel from './UsingWithVModel.vue'
 </script>
 
 <template>
@@ -16,5 +17,7 @@ import EventsValidation from './EventsValidation.vue'
         <DeclaringEmittedEvents />
         <h4>Events Validation</h4>
         <EventsValidation />
+        <h4>Using with v-model</h4>
+        <UsingWithVModel />
     </div>
 </template>
