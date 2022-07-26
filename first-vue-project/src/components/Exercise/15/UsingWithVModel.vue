@@ -1,11 +1,16 @@
 <script>
 import CustomInput from './CustomInput.vue'
+import CustomInputComputed from './CustomInputComputed.vue'
 
 export default {
-  components: { CustomInput },
+  components: {
+    CustomInput,
+    CustomInputComputed
+  },
   data() {
     return {
-      message: 'hello'
+      message: 'hello',
+      messageComputed: 'hello'
     }
   }
 }
@@ -14,5 +19,7 @@ export default {
 <template>
     <div class="exercise">
         <CustomInput v-model="message" /> {{ message }}
+        <br/>
+        <CustomInputComputed v-model="messageComputed" /> {{ messageComputed }}
     </div>
 </template>
