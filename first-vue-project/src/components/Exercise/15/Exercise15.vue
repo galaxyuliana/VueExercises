@@ -4,6 +4,7 @@ import EventArguments from './EventArguments.vue'
 import DeclaringEmittedEvents from './DeclaringEmittedEvents.vue'
 import EventsValidation from './EventsValidation.vue'
 import UsingWithVModel from './UsingWithVModel.vue'
+import VModelArgument from './VModelArgument.vue'
 </script>
 
 <template>
@@ -19,5 +20,7 @@ import UsingWithVModel from './UsingWithVModel.vue'
         <EventsValidation />
         <h4>Using with v-model</h4>
         <UsingWithVModel />
+        <h4>v-model argument</h4>
+        <VModelArgument />
     </div>
 </template>
