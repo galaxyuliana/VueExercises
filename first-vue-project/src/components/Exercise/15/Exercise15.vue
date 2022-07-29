@@ -5,6 +5,7 @@ import DeclaringEmittedEvents from './DeclaringEmittedEvents.vue'
 import EventsValidation from './EventsValidation.vue'
 import UsingWithVModel from './UsingWithVModel.vue'
 import VModelArgument from './VModelArgument.vue'
+import MultipleVMBindings from './MultipleVMBindings.vue'
 </script>
 
 <template>
@@ -22,5 +23,7 @@ import VModelArgument from './VModelArgument.vue'
         <UsingWithVModel />
         <h4>v-model argument</h4>
         <VModelArgument />
+        <h4>Multiple v-model Bindings</h4>
+        <MultipleVMBindings />
     </div>
 </template>
