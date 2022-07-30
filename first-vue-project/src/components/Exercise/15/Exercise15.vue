@@ -6,6 +6,7 @@ import EventsValidation from './EventsValidation.vue'
 import UsingWithVModel from './UsingWithVModel.vue'
 import VModelArgument from './VModelArgument.vue'
 import MultipleVMBindings from './MultipleVMBindings.vue'
+import HandlingVMModifiers from './HandlingVMModifiers.vue'
 </script>
 
 <template>
@@ -25,5 +26,7 @@ import MultipleVMBindings from './MultipleVMBindings.vue'
         <VModelArgument />
         <h4>Multiple v-model Bindings</h4>
         <MultipleVMBindings />
+        <h4>Handling v-model Modifiers</h4>
+        <HandlingVMModifiers />
     </div>
 </template>
