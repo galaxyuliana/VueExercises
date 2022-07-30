@@ -6,15 +6,10 @@ export default {
       default: () => ({})
     }
   },
-  emits: ['update:modelValue'],
-  methods: {
-    emitValue(e) {
-      let value = e.target.value
-      if (this.modelModifiers.capitalize) {
-        value = value.charAt(0).toUpperCase() + value.slice(1)
-      }
-      this.$emit('update:modelValue', value)
-    }
+  props: ['title', 'titleModifiers'],
+  emits: ['update:title'],
+  created() {
+    console.log(this.titleModifiers) // { capitalize: true }
   }
 }
 </script>
